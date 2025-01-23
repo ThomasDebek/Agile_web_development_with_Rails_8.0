@@ -1,0 +1,31 @@
+current directory: /Users/tomaszdebek/Applications_M1/My_Page/Agile_web_development_with_Rails_8.0/vendor/bundle/ruby/3.3.0/gems/io-console-0.8.0/ext/io/console
+/Users/tomaszdebek/.rbenv/versions/3.3.5/bin/ruby extconf.rb
+checking for rb_syserr_fail_str(0, Qnil)... yes
+checking for rb_interned_str_cstr()... yes
+checking for rb_io_path()... yes
+checking for rb_io_descriptor()... yes
+checking for rb_io_get_write_io()... yes
+checking for rb_io_closed_p()... yes
+checking for rb_io_open_descriptor()... yes
+checking for rb_ractor_local_storage_value_newkey()... yes
+checking for termios.h... yes
+checking for cfmakeraw() in termios.h... yes
+checking for sys/ioctl.h... yes
+checking for HAVE_RUBY_FIBER_SCHEDULER_H... yes
+checking for ttyname_r()... yes
+creating Makefile
+
+current directory: /Users/tomaszdebek/Applications_M1/My_Page/Agile_web_development_with_Rails_8.0/vendor/bundle/ruby/3.3.0/gems/io-console-0.8.0/ext/io/console
+make DESTDIR\= sitearchdir\=./.gem.20250123-14138-feys8p sitelibdir\=./.gem.20250123-14138-feys8p clean
+
+current directory: /Users/tomaszdebek/Applications_M1/My_Page/Agile_web_development_with_Rails_8.0/vendor/bundle/ruby/3.3.0/gems/io-console-0.8.0/ext/io/console
+make DESTDIR\= sitearchdir\=./.gem.20250123-14138-feys8p sitelibdir\=./.gem.20250123-14138-feys8p
+compiling console.c
+linking shared-object io/console.bundle
+
+current directory: /Users/tomaszdebek/Applications_M1/My_Page/Agile_web_development_with_Rails_8.0/vendor/bundle/ruby/3.3.0/gems/io-console-0.8.0/ext/io/console
+make DESTDIR\= sitearchdir\=./.gem.20250123-14138-feys8p sitelibdir\=./.gem.20250123-14138-feys8p install
+/usr/bin/install -c -m 0755 console.bundle ./.gem.20250123-14138-feys8p/io
+
+current directory: /Users/tomaszdebek/Applications_M1/My_Page/Agile_web_development_with_Rails_8.0/vendor/bundle/ruby/3.3.0/gems/io-console-0.8.0/ext/io/console
+make DESTDIR\= sitearchdir\=./.gem.20250123-14138-feys8p sitelibdir\=./.gem.20250123-14138-feys8p clean
