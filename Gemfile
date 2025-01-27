@@ -65,3 +65,5 @@ group :test do
 end
 
 gem "faker", "~> 3.5"
+
+gem "open-uri", "~> 0.5.0"
