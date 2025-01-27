@@ -1,4 +1,4 @@
-<div id="<%= dom_id product %>">
+<div id="<%= dom_id(product) %>">
   <p class="my-5">
     <strong class="block font-medium mb-1">Title:</strong>
     <%= product.title %>
@@ -9,10 +9,14 @@
   </p>
   <p class="my-5">
     <strong class="block font-medium mb-1">Image:</strong>
-    <%= link_to product.image.filename, product.image if product.image.attached? %>
+    <% if product.image.attached? %>
+      <%= image_tag(url_for(product.image), class: 'w-40') %>
+    <% else %>
+    <p>No image attached</p>
+  <% end %>
   </p>
   <p class="my-5">
     <strong class="block font-medium mb-1">Price:</strong>
-    <%= product.price %>
+    <%= number_to_currency(product.price) %>
   </p>
 </div>
