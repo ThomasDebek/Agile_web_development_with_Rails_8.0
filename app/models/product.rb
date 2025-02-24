@@ -6,6 +6,7 @@ class Product < ApplicationRecord
 
   validate :acceptable_image
 
+  after_commit -> { broadcast_refresh_later_to "products" }
   def acceptable_image
     return unless image.attached?
     acceptable_types = ["image/gif", "image/jpeg", "image/png"]
